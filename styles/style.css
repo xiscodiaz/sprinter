@@ -1,0 +1,150 @@
+@font-face {
+    src: url("../fonts/Montserrat-BoldItalic.ttf");
+    font-family: "Montserrat-BoldItalic";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans-Regular, sans-serif";
+}
+    
+@font-face {
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-family: "OpenSans-Light";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-family: "OpenSans-SemiBold";
+}
+
+main {
+    padding: 24px 24px;
+}
+
+.greenbanner {
+
+    height: 16px;
+    width: 600px;
+    background-color:#058955;
+    margin-bottom: 28px;
+
+}
+
+.banner {
+    padding: 0px 0px 24px 0px;
+}
+
+.nav-logo {
+
+    padding: 0px 0px;
+    height: 200px;
+    width: 600px;
+
+}
+
+h1 {
+    font-family: "Montserrat-BoldItalic";
+    font-size: 16pt;
+    color: #058955;
+}
+
+h2 {
+    font-family: "OpenSans-Regular, sans-serif";
+    font-size: 11pt;
+    color: #808080;
+}
+
+h3 {
+    font-family: "OpenSans-Light";
+    font-size: 7pt;
+    color: #808080;
+}
+
+.bgcolor {
+    background-color: #dcdcdc;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    font-family: "OpenSans-Regular, sans-serif";
+    font-size: 12pt;
+    align-content: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgbg {
+    background-image: url("../images/banner.jpg");
+    background-size: 552px;
+    height: 352px;
+    width: 552px;
+    color: #f0f0f0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.txtimg {
+    background-color: #ffffff;
+    height: 170px;
+    width: 230px;
+    text-align: left;
+    position: relative;
+    float: right;
+    padding: 10px 20px 0 40px;
+}
+
+.product-content {
+
+    height: 400px;
+    width: 181px;
+    background-color:#efefef;
+    display: inline-block;
+}
+
+.button {
+    font-family: "OpenSans-SemiBold";
+    font-size: 13pt;
+    align-content: center;
+    text-decoration: none;
+    color: #4d4d4d;
+    padding: 10px 30px;
+    border: 1px solid #888888;
+}
+
+.buttonbg {
+
+    height: 100px;
+    width: 552px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+
+.footer {
+
+    height: 118px;
+    width: 600px;
+    background-color:#efefef;
+}
+
+
+.txtfoot {
+    height: 90px;
+    width: 300px;
+    text-align: center;
+    padding: 10px 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+
